@@ -1,0 +1,83 @@
+{
+  "namespace": "logistics_data",
+  "name": "LogisticsData",
+  "type": "record",
+  "fields": [
+    {
+      "name": "shipmentId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "customerName",
+      "type": "string"
+    },
+    {
+      "name": "customerAddress",
+      "type": "string"
+    },
+    {
+      "name": "customerPhone",
+      "type": "string"
+    },
+    {
+      "name": "shippingDate",
+      "type": "string"
+    },
+    {
+      "name": "deliveryDate",
+      "type": "string"
+    },
+    {
+      "name": "shipmentStatus",
+      "type": "string"
+    },
+    {
+      "name": "carrierName",
+      "type": "string"
+    },
+    {
+      "name": "trackingNumber",
+      "type": "string"
+    },
+    {
+      "name": "shippingMethod",
+      "type": "string"
+    },
+    {
+      "name": "weight",
+      "type": "float"
+    },
+    {
+      "name": "dimensions",
+      "type": "string"
+    },
+    {
+      "name": "originAddress",
+      "type": "string"
+    },
+    {
+      "name": "destinationAddress",
+      "type": "string"
+    },
+    {
+      "name": "shipmentCost",
+      "type": "float"
+    },
+    {
+      "name": "insurance",
+      "type": "string"
+    },
+    {
+      "name": "specialInstructions",
+      "type": "string"
+    },
+    {
+      "name": "remarks",
+      "type": "string"
+    }
+  ]
+}
